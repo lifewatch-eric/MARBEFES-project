@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Economic Valuation Tool</title><meta name="description" content="Browser-based economic valuation tool. Each user works with an independent local copy.">
+<link rel="stylesheet" href="styles.css"></head><body>
+<header><div><p class="eyebrow">MaRBEFES Project</p><h1>Economic Valuation Tool</h1><p>Enter values in the highlighted fields. Calculations run locally in your browser; no data is shared with other users.</p></div>
+<div class="actions"><button id="resetBtn" class="danger">Reset tool</button><button id="downloadBtn">Download responses</button><a class="button" href="original-tool.xlsx" download>Download original Excel</a></div></header>
+<nav id="tabs" aria-label="Tool sections"></nav><main><div id="status" role="status"></div><div id="sheet" class="sheet-wrap"></div></main>
+<footer>Data is stored only in this browser. Use “Reset tool” to return to a clean version.</footer>
+<script src="workbook-data.js"></script><script src="app.js"></script></body></html>
